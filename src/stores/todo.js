@@ -3,8 +3,8 @@ import { defineStore } from 'pinia'
 
 export const useTodoStore = defineStore('todo', {
     state: (() => ({
-        listTodo: [{ bookname: 'This life fuckin', author: 'Charin', status: 'open' },
-            { bookname: 'This life fuckin', author: 'Charin', status: 'close' }
+        listTodo: [{ bookname: 'Life sucks', author: 'Charin', status: 'open' },
+            { bookname: 'This is life', author: 'Charin', status: 'close' }
         ]
     })),
     actions: {
